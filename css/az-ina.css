@@ -3,7 +3,7 @@
   background-color: #fafafa;
   display: flex;
   justify-content: center;
-  margin-top: 133px;
+  margin-top: 0; /* header space handled by .wraper */
   .main-center {
     width: 90%;
     margin: 25px 0 18px 0;
@@ -1135,11 +1135,11 @@
                 border: 1px solid #80a9db;
               }
             }
-            svg{
+            svg {
               cursor: pointer;
             }
           }
-          .botton-box{
+          .botton-box {
             width: 128.7px;
             height: 45px;
             background-color: #0a295a86;
@@ -1147,14 +1147,14 @@
             text-align: center;
             cursor: pointer;
             margin-bottom: 20px;
-            span{
+            span {
               font-size: 14px;
               color: #fff;
               line-height: 45px;
             }
           }
         }
-        .line{
+        .line {
           width: 97%;
           height: 1px;
           margin: 0 auto;
@@ -1168,15 +1168,15 @@
           display: flex;
           flex-flow: column wrap;
           row-gap: 24px;
-          .p-1{
+          .p-1 {
             display: flex;
             flex-flow: row wrap;
             column-gap: 10px;
-            .span-1{
+            .span-1 {
               font-size: 20px;
               font-weight: bold;
             }
-            .span-2{
+            .span-2 {
               width: 23px;
               height: 23.21px;
               text-align: center;
@@ -1186,25 +1186,25 @@
               border-radius: 50%;
             }
           }
-          .p-2{
+          .p-2 {
             display: flex;
             flex-flow: column wrap;
             row-gap: 12px;
-            .info{
+            .info {
               display: flex;
               flex-flow: row wrap;
               column-gap: 12px;
-              .span-1{
+              .span-1 {
                 font-weight: bold;
               }
-              .span-2{
+              .span-2 {
                 font-size: 12px;
                 color: #757575;
                 border-right: 1px solid #2b2b2b33;
                 padding-right: 12px;
               }
             }
-            .massage{
+            .massage {
               line-height: 28px;
             }
           }
